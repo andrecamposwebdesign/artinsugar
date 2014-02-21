@@ -5,7 +5,8 @@ angular.module('website', []).
 			when('/home', {templateUrl:'templates/home.html'}).
 			when('/services', {templateUrl:'templates/services.html'}).
 			when('/midia', {templateUrl:'templates/midia.html'}).
-			when('/location', {templateUrl:'templates/location.html'}).
+			when('/modeling', {templateUrl:'templates/modeling.html'}).
+			when('/cv', {templateUrl:'templates/cv.html'}).
 			when('/contact', {templateUrl:'templates/contact-template.html'}).
 			otherwise({redirectTo:'/home', templateUrl:'templates/home.html'});
 	});
@@ -16,3 +17,4 @@ function MainCtrl($scope, $location) {
 		$location.path(route);
 	}
 }
+
