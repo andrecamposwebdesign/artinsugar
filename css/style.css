@@ -15,10 +15,11 @@ opacity:1;z-index:1;}
 .img1{background-image:url('../img/sprite.png');background-position:0px -3060px;height: 50px;width: 500px;}
 /*HEADER*/
 .header{z-index: 10;}
-.header .row:first-child{margin-top:35px;}
 .modal-dialog{width:auto !important;max-width:900px;}
 /*Logo*/
-.logo img{height: 200px;margin-top: 10%;}
+.logodentro{text-align:center;}
+.logofora{margin-top:20%;}
+.logo img{height: 200px;margin-top: 6%;}
 .flag img{height: 40px;margin-top: 10px;}
 .mainads{display: inline-block;}
 /*Call today*/
@@ -29,12 +30,12 @@ opacity:1;z-index:1;}
 /*Menu*/
 .active a{color:green;}
 ul li{text-decoration:none;display:inline-block;}
-li a{color:#D6A28D;font-size:18px;margin-right:24px;}
+li a{color:#D6A28D;font-size:16px;margin-right:24px;}
 .nav li a{color:#666;}
 li:last-child a{margin-right:0;}
 li a:hover{text-decoration:none;color:#DA3034;}
 .carousel-inner div img, li div img{cursor:pointer;}
-.menu{margin-top:25%;background-image:url('../img/sprite.png');background-position: 0px -958px;height:80px;}
+.menu{text-align:center;background-image:url('../img/sprite.png');background-position: 0px -958px;height:55px;}
 ul{padding-left:0;z-index:12;}
 .menu ul{padding-top: 16px;font-weight:bold;font-size:10px;}
 .yachtlist ul li{cursor:pointer;color:#fff;}
@@ -189,10 +190,10 @@ background-position: 0px 0px;height: 95px;width:305px;}
    position:fixed;
    left:0px;
    bottom:0px;
-   height:90px;
+   height:110px;
    width:100%;
    background:#fff;
-   opacity:0.7;
+   opacity:0.8;
 }
 
 /* IE 6 */
@@ -206,6 +207,7 @@ background-position: 0px 0px;height: 95px;width:305px;}
 @media (max-width: 1579px) { .areas{padding-left:0;background-image:none;} 
 .sol1, .sol2, .sol3, .sol4, .sol5, .sol6{height:90%;border:none;}
 .sol4{display:none;}
+
 }
 
 /* Landscape phone to portrait tablet */
@@ -219,6 +221,7 @@ background-position: 0px 0px;height: 95px;width:305px;}
 	li a{font-size:18px;}
 	li{margin-bottom:10px;}
 	.header .row:first-child{margin-top:10px;}
+	.menu{margin-bottom:50px;}
  }
  
 /* Landscape phones and down */

@@ -7,6 +7,8 @@ angular.module('website', []).
 			when('/midia', {templateUrl:'templates/midia.html'}).
 			when('/modeling', {templateUrl:'templates/modeling.html'}).
 			when('/cv', {templateUrl:'templates/cv.html'}).
+			when('/cookies', {templateUrl:'templates/cookies.html'}).
+			when('/flavours', {templateUrl:'templates/flavours.html'}).
 			when('/contact', {templateUrl:'templates/contact-template.html'}).
 			otherwise({redirectTo:'/home', templateUrl:'templates/home.html'});
 	});
